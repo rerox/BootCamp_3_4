@@ -1,0 +1,18 @@
+body {
+    padding: 20px;
+}
+
+#progressFilm {
+    width:550px
+}
+
+.playPause{
+    height:20px;
+    width:20px;
+}
+
+#TimeProgress
+{
+    margin-top:-5px;
+    margin-right:10px;
+}

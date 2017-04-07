@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>BootCamp_6_4</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="_css/bootstrap.css">
+    <link rel="stylesheet" href="_css/_css.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h1>VIDEOPLAYER</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div>
+            <div class="col-xs-offset-3 col-xs-7 col-xs-offset-3">
+            <video id="video">
+                <source src="video/Typical-Cat.mp4" type="video/mp4">
+                <source src="video/Typical-Cat.webmhd.webm" type="video/webm">
+            </video>
+            </div>
+            <div class="col-xs-offset-3 col-xs-7">
+                <div class="glyphicon glyphicon-play pull-left playPause" id="playPause" ></div>
+            <input id="progressFilm" type="range" class="pull-left ">
+            <output for="progressFilm" id="TimeProgress" class="pull-right"></output>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="_js/scripts.js"></script>
+
+</body>
+</html>
